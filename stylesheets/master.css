@@ -46,6 +46,10 @@ article .bottom-corner {
     height: 160px;
 }
 
+article h1 {
+    font-size: var(--article-h1-font-size);
+}
+
 li::marker {
     content: '\27A4 ';
     font-size: 0.8em;
