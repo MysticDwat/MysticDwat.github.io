@@ -1,0 +1,16 @@
+:root{
+    --color1: #2e1114;
+    --color2: #501b1d;
+    --color3: #64485c;
+    --color4: #83677b;
+    --color5: #adadad;
+
+    --text1: #ffffff;
+    --text2: #000000;
+    --text3: #7c7c7c;
+
+    --footer-height: 100px;
+    --header-height: 70px;
+
+    --article-spacing: 60px;
+}
