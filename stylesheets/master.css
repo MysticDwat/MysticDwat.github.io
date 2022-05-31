@@ -48,6 +48,42 @@ article .bottom-corner {
 
 article h1 {
     font-size: var(--article-h1-font-size);
+    width: 100%;
+}
+
+article h1.center {
+    text-align: center;
+}
+
+article p {
+    text-indent: 2em;
+}
+
+article img {
+    border: 2px solid var(--color1);
+}
+
+article .row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+article .row .column{
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 1em;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 50%;
+}
+
+.column * {
+    box-sizing: border-box;
+    width: 100%;
 }
 
 li::marker {
