@@ -65,7 +65,9 @@ article p {
 }
 
 article img {
+    box-sizing: border-box;
     border: 2px solid var(--color1);
+    max-width: 100%;
 }
 
 article img.about_me_img {
