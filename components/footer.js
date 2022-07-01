@@ -6,6 +6,7 @@ footerTemplate.innerHTML = `
         <h1>My Links</h1>
         <nav>
             <a href="https://github.com/MysticDwat">GitHub</a>
+            <a href="https://www.linkedin.com/in/william-hottenstein-80837b21b/">LinkedIn</a>
         </nav>
     </footer>
 `

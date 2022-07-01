@@ -20,6 +20,7 @@ footer nav {
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    column-gap: 1em;
     width: 100%;
 }
 

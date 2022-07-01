@@ -24,6 +24,11 @@ article {
     width: 50%;
 }
 
+article.flex {
+    display: flex;
+    flex-flow: column;
+}
+
 article .top-corner {
     background: var(--color2);
     box-shadow: 25px -15px 0 5px var(--color1);
@@ -63,6 +68,23 @@ article img {
     border: 2px solid var(--color1);
 }
 
+article img.about_me_img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 12em;
+    margin: auto;
+}
+
+article embed {
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+article embed.center {
+    box-sizing: border-box;
+}
+
 article .row {
     display: flex;
     flex-flow: row nowrap;
@@ -79,6 +101,10 @@ article .row .column{
     padding-left: 1em;
     padding-right: 1em;
     width: 50%;
+}
+
+article .row .about-me.column {
+    width: 65%;
 }
 
 .column * {
