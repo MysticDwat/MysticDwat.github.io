@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../stylesheets/master.css">
     <script src="../components/header.js" type="text/javascript" defer></script>
     <script src="../components/footer.js" type="text/javascript" defer></script>
+    <script src="../scripts/collapse.js" type="text/javascript" defer></script>
 </head>
 <body>
     <header-bar></header-bar>
@@ -18,13 +19,13 @@
             <h1>Skills</h1>
 
             <section id="languages">
-                <h2>Languages</h2>
+                <h2 class="collapsible">Languages</h2>
 
-                <ul>
+                <ul class="child">
                     <li>
-                        Proficient
+                        <div class="collapsible">Proficient</div>
 
-                        <ul>
+                        <ul class="child">
                             <li>C</li>
                             <li>JavaScript</li>
                             <li>Python</li>
@@ -32,9 +33,9 @@
                     </li>
 
                     <li>
-                        Intermediate
+                        <div class="collapsible">Intermediate</div>
 
-                        <ul>
+                        <ul class="child">
                             <li>Ada</li>
                             <li>Assembly</li>
                             <li>C#</li>
@@ -49,13 +50,13 @@
             </section>
 
             <section id="web-dev">
-                <h2>Web Development</h2>
+                <h2 class="collapsible">Web Development</h2>
 
-                <ul>
+                <ul class="child">
                     <li>
-                        Proficient
+                        <div class="collapsible">Proficient</div>
 
-                        <ul>
+                        <ul class="child">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Mongoose</li>
@@ -68,17 +69,17 @@
             </section>
 
             <section id="databases">
-                <h2>Databases</h2>
+                <h2 class="collapsible">Databases</h2>
 
-                <ul>
+                <ul class="child">
                     <li>
-                        Proficient
+                        <div class="collapsible">Proficient</div>
 
-                        <ul>
+                        <ul class="child">
                             <li>
-                                SQL
+                                <div class="collapsible">SQL</div>
 
-                                <ul>
+                                <ul class="child">
                                     <li>MySQL</li>
                                     <li>SQLite3</li>
                                 </ul>
@@ -90,9 +91,9 @@
                     </li>
 
                     <li>
-                        Intermediate
+                        <div class="collapsible">Intermediate</div>
 
-                        <ul>
+                        <ul class="child">
                             <li>DynamoDB</li>
                         </ul>
                     </li>
@@ -100,8 +101,8 @@
             </section>
 
             <section id="graphics">
-                <h2>Computer Graphics</h2>
-                <p>
+                <h2 class="collapsible">Computer Graphics</h2>
+                <p class="child">
                     In the field of computer graphics, I have done various projects, such as image warping, face morphing,
                     and pedestrian simulations. While I am not familiar with any tools outside VPython, I am familiar with
                     the various mathematical principals behind computer graphics, such as affine warping, gradient
