@@ -81,6 +81,12 @@ article img.about_me_img {
     margin: auto;
 }
 
+article img.skills_img {
+    height: 20em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
 article embed {
     box-sizing: border-box;
     width: 100%;
@@ -109,6 +115,10 @@ article .row .column{
     width: 50%;
 }
 
+article .row .column.no_gap {
+    row-gap: 0;
+}
+
 article .row .about-me.column {
     width: 65%;
 }
@@ -120,6 +130,11 @@ article .row .about-me.column {
 
 ul {
     list-style-type: none;
+}
+
+.collapsible:hover {
+    cursor: pointer;
+    color: var(--color2);
 }
 
 .collapsible::before {
