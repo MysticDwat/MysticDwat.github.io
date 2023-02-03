@@ -1,5 +1,7 @@
 const headerTemplate = document.createElement("template");
 
+//blog button <a href="../pages/blog.html">Blog</a>
+
 headerTemplate.innerHTML = `
     <link rel="stylesheet" href="../stylesheets/header.css">
     <header>
@@ -8,7 +10,6 @@ headerTemplate.innerHTML = `
             <a href="../pages/resume.html">Resume</a>
             <a href="../pages/portfolio.html">Portfolio</a>
             <a href="../pages/skills.html">Skills</a>
-            <!--a href="../pages/blog.html">Blog</a-->
             <a href="../pages/contact-me.html">Contact Me</a>
         </nav>    
     </header>
