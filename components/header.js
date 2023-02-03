@@ -8,7 +8,7 @@ headerTemplate.innerHTML = `
             <a href="../pages/resume.html">Resume</a>
             <a href="../pages/portfolio.html">Portfolio</a>
             <a href="../pages/skills.html">Skills</a>
-            <a href="../pages/blog.html">Blog</a>
+            <!--a href="../pages/blog.html">Blog</a-->
             <a href="../pages/contact-me.html">Contact Me</a>
         </nav>    
     </header>
